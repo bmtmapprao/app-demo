@@ -1,6 +1,6 @@
 
 
-replicaCount: 4
+replicaCount: 2
 
 namedeployment: web-deployment
 nameservice: web-service
