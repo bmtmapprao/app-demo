@@ -1,0 +1,26 @@
+
+
+replicaCount: 2
+
+namedeployment: web-deployment
+nameservice: web-service
+
+
+image:
+  repository: bmtmapprao/java
+  pullPolicy: IfNotPresent
+  tag: latest
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+container:
+  port: 7000
+
+
+
+service:
+  type: ClusterIP
+  port: 80
+
