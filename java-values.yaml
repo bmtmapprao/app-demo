@@ -16,7 +16,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 container:
-  port: 9001
+  port: 8080
 
 
 
